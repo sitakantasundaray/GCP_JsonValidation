@@ -1,0 +1,73 @@
+{
+  "header": {
+    "alg": "TBD"
+  },
+  "payload": {
+    "version": "1",
+    "payloadTimestamp": "2025-07-21T16:00:00Z",
+    "action": "test",
+    "vendorId": "Arizon",
+    "vendorProcessingFacilityId": "ADDRESS",
+    "shipDate": "2025-07-20",
+    "shipToLocation": "SCS Louisville",
+    "lot": {
+      "lotId": "LOT45678",
+      "productSKU": "SPA 8 inch",
+      "caseCount": 2,
+      "totalUidCount": 12,
+      "cases": [
+        {
+          "caseId": "CASE001",
+          "caseCreationTimestamp": "2025-07-19T10:15:00Z",
+          "shipmentId": "1ZABC12304959050",
+          "rollCount": 2,
+          "uidCount": 6,
+          "rolls": [
+            {
+              "rollId": "ROLL3210",
+              "uidList": [
+                "29AE1B0000000951E4000001",
+                "29AE1B0000000951E4000002",
+                "29AE1B0000000951E4000003"
+              ]
+            },
+            {
+              "rollId": "ROLL3211",
+              "uidList": [
+                "29AE1B0000000951E4000004",
+                "29AE1B0000000951E4000005",
+                "29AE1B0000000951E4000006"
+              ]
+            }
+          ]
+        },
+        {
+          "caseId": "CASE002",
+          "caseCreationTimestamp": "2025-07-19T12:45:00Z",
+          "shipmentId": "1ZABC12304959051",
+          "rollCount": 2,
+          "uidCount": 6,
+          "rolls": [
+            {
+              "rollId": "ROLL3212",
+              "uidList": [
+                "29AE1B0000000951E4000007",
+                "29AE1B0000000951E4000008",
+                "29AE1B0000000951E4000009"
+              ]
+            },
+            {
+              "rollId": "ROLL3213",
+              "uidList": [
+                "29AE1B0000000951E4000010",
+                "29AE1B0000000951E4000011",
+                "29AE1B0000000951E4000012"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "signature": "TBD"
+}

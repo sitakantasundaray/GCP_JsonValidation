@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "properties": {
+    "payload": {
+      "type": "object",
+      "properties": {
+        "vendorId": { "type": "string" },
+        "vendorProcessingFacilityId": { "type": "string" },
+        "shipDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "shipToLocation": { "type": "string" },
+        "lot": {
+          "type": "object",
+          "properties": {
+            "lotId": { "type": "string" },
+            "productSKU": { "type": "string" },
+            "cases": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "rolls": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "rollId": { "type": "string" }
+                      },
+                      "required": [ "rollId" ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "required": [ "lotId", "productSKU", "cases" ]
+        }
+      },
+      "required": [ "vendorId", "vendorProcessingFacilityId", "shipDate", "shipToLocation", "lot" ]
+    }
+  },
+  "required": [ "payload" ]
+}

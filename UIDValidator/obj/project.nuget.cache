@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "nooVI5iatzE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HBP9VMR\\Sitakanta\\Arizon\\UIDValidator\\UIDValidator\\UIDValidator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HBP9VMR\\.nuget\\packages\\namotion.reflection\\3.4.2\\namotion.reflection.3.4.2.nupkg.sha512",
+    "C:\\Users\\HBP9VMR\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\HBP9VMR\\.nuget\\packages\\njsonschema\\11.4.0\\njsonschema.11.4.0.nupkg.sha512",
+    "C:\\Users\\HBP9VMR\\.nuget\\packages\\njsonschema.annotations\\11.4.0\\njsonschema.annotations.11.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
